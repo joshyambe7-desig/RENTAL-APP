@@ -58,7 +58,7 @@ This is a work-in-progress learning project; see [Known Limitations & Roadmap](#
 
 
 
-![Database schema](docs/screenshots/db-schema.png)
+![Database schema](docs/screenshots/db_schema.png)
 
 A `Property` belongs to a landlord (`User`), has many `PropertyImage`, can be saved by tenants via `Favorite`, and receives `RentalRequest` from tenants.
 
@@ -173,6 +173,8 @@ This project is a learning exercise, and some parts are intentionally left for l
 - [ ] No automated test coverage on the frontend
 - [ ] Media/image handling could use cloud storage instead of local disk in production
 - [ ] UI/UX polish still in progress
+- [ ] responsive design
+
 
 ## Author
 
