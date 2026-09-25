@@ -1,0 +1,14 @@
+.footer{
+    color: white;
+    background-color: var(--color-background);
+    height: auto;
+}
+
+.container {
+    display: flex;
+    gap: 32px;
+
+}
+.row{
+        margin-top: var(--spacing-lg);
+}

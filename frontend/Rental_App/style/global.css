@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Robot', sans-serif;
+}
+
+input, button, textarea, select{
+    font:inherit;
+    color: inherit;
+    margin-bottom: var(--spacing-sm);
+}
+
+main{
+        min-height: 100vh;
+        line-height: 1.5;
+        margin-bottom: 35px;
+        
+
+}
+
+li{
+    list-style: none;
+}
+.regular-btn{
+    padding: var(--spacing-sm);
+    background-color: var(--color-background);
+    color:white;
+    font-size: var(--font-size-md);
+    font-weight: bold;
+    border-radius: var(--radius-lg);
+}
+.regular-btn:hover{
+    background-color: white;
+    color: var(--color-text-important);
+}
+
+.danger-btn{
+    background-color: var(--color-danger);
+}
+
+.danger-btn:hover{
+    color: red;
+    
+}
+
+.bg-primary{
+    background-color: var(--color-primary);
+}
+label+input{
+    color: black;
+}

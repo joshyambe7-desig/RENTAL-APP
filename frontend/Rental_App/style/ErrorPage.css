@@ -1,0 +1,15 @@
+h1,h2{
+    text-align: center;
+    font-size: var(--font-size-2xl);
+    font-weight: bold;
+    color: var(--color-text-important);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    
+}

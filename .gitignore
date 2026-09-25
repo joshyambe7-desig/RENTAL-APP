@@ -1,0 +1,21 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Django uploads
+**/media/
+
+# Python
+**/env/
+**/.venv/
+**/__pycache__/
+*.pyc
+
+# Database
+*.sqlite3
+*.db
+
+# React
+**/node_modules/
+**/dist/

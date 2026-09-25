@@ -1,0 +1,13 @@
+.form-rental-request{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+textarea{
+    border-radius: var(--radius-lg);
+    padding:2px;
+    border: 2px var(--color-background) solid;
+    border-bottom: 2px  var(--color-background) solid;
+}
